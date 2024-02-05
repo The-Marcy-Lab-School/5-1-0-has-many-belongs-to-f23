@@ -1,3 +1,12 @@
+/* 
+Remember:
+* `this` in a constructor refers to the new object
+* `this` in a method refers to the object calling the method
+* `static` makes a method/property a class method/property
+* `#` makes a method/property private
+*/
+
+
 const getIdMaker = (id = 0) => {
   return () => ++id;
 }

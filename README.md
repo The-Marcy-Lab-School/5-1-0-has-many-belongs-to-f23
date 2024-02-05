@@ -16,7 +16,7 @@ UML stands for **U**nified **M**odeling **L**anguage and it defines a way of des
 
 UML Diagrams can be created using a tool like https://draw.io or they can simply be drawn using pen and paper.
 
-Take a moment and create a diagram for the `Book` class below:
+**TODO:** Take a moment and create a diagram for the `Book` class below:
 
 ```js
 class Book {
@@ -68,13 +68,14 @@ In this diagram, we take it a step further and define the type of each property,
 
 </details><br>
 
-## Relationships
+## Entity Relationships
 
-Class diagrams can show the data and functionality of a class, but the relationships between classes is just as important. 
+Class diagrams can show the data and functionality of a class, but the relationships between classes is just as important. We can turn our diagrams from simple class diagrams to **Entity Relationship Diagrams** (ERDs) by connecting them.
 
-While there are many types of relationships, and many ways to represent them, below is one way that we can represent two common types of relationships that can exist between classes:
-* "Has many / belongs to"
-* "Is A"
+There are many types of relationships, and many ways to represent them.
+Below is a common way to represent relationships between classes:
+* "Has many / belongs to" (a.k.a. "one to many")
+* "Is A" (a.k.a. "Inheritance")
 
 ![](./images/relationships.png)
 
@@ -84,14 +85,30 @@ While there are many types of relationships, and many ways to represent them, be
 
 Later this week, we'll learn how to implement an "Is A" relationship with the `extends` keyword.
 
+**TODO:** Draw the correct association line between your two classes. If you are using draw.io, go to the "ERD" section and find the "one-to-many" connector
+
+**<details><summary style="color: purple">Example: Library and Books ERD</summary>**
+
+![The library and book classes are connected with a one-to-many line. A library has many books (a book belongs to a library)](./images/book-library-erd.png)
+
+
+</details><br>
+
+
 ## Make some has many / belongs to class relationships
 
-Below are some examples of pairs of classes that you can create that will have a "has many / belongs to" relationship. With a partner, first create the class diagram for each class along with the relationship arrow between them. Then, implement the classes in JavaScript.
+Below are some examples of pairs of classes that you can create that will have a "has many / belongs to" relationship.
 
 * `Doctor` and `Appointment`
 * `Playlist` and `Song`
 * `Group` and `User`
 * `Class` and `Student`
+
+With a partner:
+
+1. Create the class diagram for each class along with the relationship arrow between them. 
+2. Then, implement the classes in JavaScript.
+
 
 Attempt to have a combination of private and public properties / methods, and static and instance properties / methods.
 
