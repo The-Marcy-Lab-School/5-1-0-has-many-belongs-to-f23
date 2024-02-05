@@ -14,7 +14,7 @@ UML stands for **U**nified **M**odeling **L**anguage and it defines a way of des
 
 ## Practice
 
-UML Diagrams can be created using a tool like https://draw.io or they can simply be drawn using pen and paper.
+Class Diagrams can be created using a tool like https://draw.io or they can simply be drawn using pen and paper.
 
 **TODO:** Take a moment and create a diagram for the `Book` class below:
 
