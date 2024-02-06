@@ -4,7 +4,7 @@
 
 When building an application, the first step is always to make a plan. 
 * We plan the features of the application with **user stories**
-* We plan the user interface with a wireframe
+* We plan the user interface with a **wireframe**
 
 Now that we're preparing to build more complex applications, we need to start thinking about how we plan our data. This plan is often called the **data architecture** and can be represented with a **Class Diagram**.
 
